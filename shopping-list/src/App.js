@@ -1,10 +1,13 @@
-import Textbox from './components/textbox';
+
+import CreateList from './components/list';
+
 
 function App() {
   return (
     <div>
       <h1>Shopping List</h1>
-      <Textbox/>
+      
+      <CreateList/>
     </div>
   );
 }
