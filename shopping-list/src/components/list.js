@@ -17,7 +17,9 @@ const addItem = item => {
             <TextBox onSubmit={addItem}/>
             <ul>
                 {list.map((shoppingItem) => (
-                    <li>{shoppingItem}</li>
+                    <li>{shoppingItem}
+                        <button>DELETE</button>
+                    </li>
                 ))}
             </ul>
         </div>
